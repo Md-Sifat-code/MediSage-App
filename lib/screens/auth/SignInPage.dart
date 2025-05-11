@@ -94,7 +94,7 @@ class _SignInPageState extends State<SignInPage> {
                         ),
                       ),
                       onPressed: () {
-                        // Sign-in logic
+                        Navigator.pushNamed(context, '/verify'); // ✅ Route to AuthVerificationPage
                       },
                       child: const Text(
                         'Sign In',

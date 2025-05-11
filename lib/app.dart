@@ -9,6 +9,7 @@ import 'screens/LandingPage5.dart';
 import 'screens/LandingPage6.dart';
 import 'screens/auth/SignInPage.dart';
 import 'screens/auth/SignUpPage.dart';
+import 'screens/auth/AuthVerificationPage.dart';
 // import 'screens/login/email_password_login_screen.dart';
 // import 'screens/login/google_login_screen.dart';
 // import 'screens/login/facebook_login_screen.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/landingpage6': (context) => LandingPage6(),// 👈 Added route
         '/sign_in': (context) => SignInPage(),
         '/sign_up': (context) => SignUpPage(),
+        '/verify': (context) => AuthVerificationPage(),
         // '/login/email': (context) => EmailPasswordLoginScreen(),
         // '/login/google': (context) => GoogleLoginScreen(),
         // '/login/facebook': (context) => FacebookLoginScreen(),
